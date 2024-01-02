@@ -13,6 +13,7 @@ function App() {
 
   return (
     <MainLayout>
+      {/* theme is a reserved word in styled-components, can't be used there */}
       <Layout.Sider theme="light" style={{
         overflow: 'auto',
         height: '100vh',

@@ -12,7 +12,7 @@ In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.\
-First you need to run `yarn install` to intall all needed dependencies.
+First you need to run `yarn install` to intall all needed dependencies. \
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 

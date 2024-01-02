@@ -1,8 +1,7 @@
-import Title from "antd/es/typography/Title";
 import styled from "styled-components";
 import { Layout, Typography } from 'antd';
 
-export const BlogTitle = styled(Title).attrs({ level: 3 })`
+export const BlogTitle = styled(Typography.Title).attrs({ level: 3 })`
     margin-top: 0;
 `
 

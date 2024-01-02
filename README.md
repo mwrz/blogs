@@ -19,7 +19,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Launches the test runner in the interactive watch mode.
 \
 \
-Base API URL is saved in `.env`.
+Base API URL is saved in `.env` file. \
+To use a different API, update it accordingly.
 
 ## Used photos
 Photo by [Andrew Neel](https://unsplash.com/@andrewtneel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash). \

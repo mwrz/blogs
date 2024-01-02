@@ -1,5 +1,5 @@
-import Title from "antd/es/typography/Title";
+import { Typography } from "antd";
 
 export const Dashboard = () => {
-    return <Title level={2}>Dashboard</Title>;
+    return <Typography.Title level={2}>Dashboard</Typography.Title>;
 }

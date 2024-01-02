@@ -3,13 +3,13 @@ import { Link, Outlet, useOutletContext } from 'react-router-dom';
 import { Divider, Flex, Layout } from 'antd';
 import { AppstoreOutlined, ReadOutlined } from '@ant-design/icons';
 import { User } from './User';
-import { useFetchUsers } from '../useFetchUsers';
+import { useFetchUser } from '../useFetchUsers';
 import { InnerLayout, LayoutContent, MainLayout } from './styles';
 
 type ContextType = { userId: number | null };
 
 function App() {
-  const { user, loading } = useFetchUsers();
+  const { user, loading } = useFetchUser();
 
   return (
     <MainLayout>

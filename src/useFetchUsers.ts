@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export const useFetchUsers = () => {
+export const useFetchUser = () => {
     const [user, setUser] = useState<{ name: string, id: number }>();
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(false);

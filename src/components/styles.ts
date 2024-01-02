@@ -14,7 +14,7 @@ export const MainLayout = styled(Layout)`
 `
 
 export const LayoutContent = styled(Layout.Content)`
-    margin: 32px;
+    margin: 1rem;
 `
 
 export const InnerLayout = styled(Layout)`
